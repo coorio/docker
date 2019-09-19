@@ -1,6 +1,6 @@
 FROM alpine:3.9.4
 
-ARG VERSION
+ARG VERSION=8
 
 RUN apk update --no-cache && \
     apk add openjdk${VERSION}-jre curl && \
